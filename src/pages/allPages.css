@@ -37,21 +37,59 @@
     border-radius: 16px;
     margin: 0px 20px;
     height: 400px;
-    width:600px
+    width:600px;
+    transition: all 0.2s ease-in-out;
+}
+.project-photo:hover{
+    height:440px;
+    width: 640px;
+}
+.project-photo-left-section{
+    min-height: 400px;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    font-size: larger;
+    font-weight: bolder;
+}
+.project-photo-right-section{
+    min-height: 400px;
+    min-width:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    font-size: larger;
+    font-weight: bolder
 }
 
 .blur-left-left{
     height:402px;
-    width:150px;
+    width:50px;
     position: absolute;
-    top: 332px;
     backdrop-filter: blur(8px);
 }
 .blur-left{
     height:402px;
     width:200px;
     position: absolute;
-    top: 332px;
-    left:295px;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(10px);
+    margin-left:50px ;
+}
+
+.blur-right{
+    height:402px;
+    width:200px;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    margin-left: 950px;
+}
+.blur-right-right{
+    height:402px;
+    width:50px;
+    position: absolute;
+    backdrop-filter: blur(8px);
+    margin-left:1150px ;
 }
