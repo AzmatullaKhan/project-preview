@@ -1,10 +1,12 @@
+import { Route, Routes } from "react-router-dom";
+import {Main} from './pages/main'
 
 function App() {
   return (
-    <div>
-      Hello from trial
-    </div>
-  );
+    <Routes>
+      <Route path="/" element={<Main />}/>
+    </Routes>
+  ); 
 }
 
 export default App;
