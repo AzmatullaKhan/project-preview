@@ -27,7 +27,7 @@
     padding: 10px 40px;
 }
 .project-photo-background{
-    height: 575px;
+    height: 500px;
     width:1200px;
     display: flex;
     align-items: center;
@@ -39,7 +39,11 @@
     margin: 0px 20px;
     height: 400px;
     width:600px;
-    transition: all 0.1s
+    transition: all 0.1s;
+}
+a{
+    outline: none;
+    user-select: none;
 }
 .project-photo:hover{
     height:440px;
@@ -101,4 +105,39 @@
     position: sticky;
     right: 200px;
     backdrop-filter: blur(8px);
+}
+.href-holder{
+    padding: 10px;
+    min-height:400px;
+    width: 150px;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.project-href{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    margin:10px 0px;
+}
+.project-href:hover{
+    background-color: #fff;
+    color: #000;
+    font-weight: bolder;
+}
+footer{
+    font-weight: bolder;
+    width:1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 800px;
 }
