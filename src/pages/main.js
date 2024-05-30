@@ -4,6 +4,7 @@ import { Project2 } from './project2'
 import { Project3 } from './project3'
 import { Project4 } from './project4'
 import { Project5 } from './project5'
+import { Project6 } from './project6'
 
 export const Main=()=>{
     return(
@@ -24,6 +25,9 @@ export const Main=()=>{
                 </section>
                 <section id='project5'>
                     <Project5 />
+                </section>
+                <section id='project6'>
+                    <Project6 />
                 </section>  
             </div>
         </div>
