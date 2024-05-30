@@ -14,10 +14,11 @@
     border-radius: 12px;
 }
 .project-main-container{
-    height:1800px;
+    height:auto;
     width:1200px;
     border-radius: 12px;
     line-height: 24px;
+    padding:40px 0px
 }
 .each-project-container{
     display: flex;
