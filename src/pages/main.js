@@ -2,6 +2,7 @@ import './allPages.css'
 import { Project1 } from './project1'
 import { Project2 } from './project2'
 import { Project3 } from './project3'
+import { Project4 } from './project4'
 
 export const Main=()=>{
     return(
@@ -17,6 +18,9 @@ export const Main=()=>{
                 <section id='project3'>
                     <Project3 />
                 </section>
+                <section id='project4'>
+                    <Project4 />
+                </section>  
             </div>
         </div>
     </div>

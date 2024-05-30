@@ -7,7 +7,7 @@ export const Project3=()=>{
                 effectively to potential customers. The application includes user authentication, product listings, 
                 and advertisement management, all aimed at providing a seamless user'experience.</p>
                 <p style={{fontWeight:"bolder"}}><span style={{textDecoration:"underline"}}>Used Technnologies</span>:-  Reactjs, CSS and HTML</p>
-            <a rel='noreferrer' href='https://github.com/AzmatullaKhan/Product_Advertising' target={'_blank'}>Github Link</a><br></br>
+            <a rel='noreferrer' href='https://github.com/AzmatullaKhan/Product_Advertising' target={'_blank'} style={{fontSize:"22px"}}>Github</a><br></br>
             <div className='project-photo-background' id='project_photo_background'>
                 <div className='blur-left-left'></div>
                 <div className='blur-left'></div>

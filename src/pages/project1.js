@@ -7,7 +7,7 @@ export const Project1=()=>{
             curated selection of content, our system enhancesentertainment discovery, making it easy for users to find their 
             favorite movies and TV shows.</p>
             <p style={{fontWeight:"bolder"}}><span style={{textDecoration:"underline"}}>Used Technnologies</span>:- Python, Djnago, PSQl, CSS, JS and HTML</p>
-            <a rel='noreferrer' href='https://github.com/AzmatullaKhan/Movie_TV_Show_Recommendation_System' target={'_blank'}>Github Link</a><br></br>
+            <a rel='noreferrer' href='https://github.com/AzmatullaKhan/Movie_TV_Show_Recommendation_System' target={'_blank'} style={{fontSize:"22px"}}>Github</a><br></br>
             <div className='project-photo-background' id='project_photo_background'>
                 <div className='blur-left-left'></div>
                 <div className='blur-left'></div>

@@ -8,7 +8,7 @@ export const Project2=()=>{
                 application streamlines task management, helping users stay organized and focused. Experience the power of 
                 React in task management with this versatile To-Do List'application.</p>
                 <p style={{fontWeight:"bolder"}}><span style={{textDecoration:"underline"}}>Used Technnologies</span>:-  Reactjs, CSS and HTML</p>
-            <a rel='noreferrer' href='https://github.com/AzmatullaKhan/todo-list' target={'_blank'}>Github Link</a><br></br>
+            <a rel='noreferrer' href='https://github.com/AzmatullaKhan/todo-list' target={'_blank'} style={{fontSize:"22px"}}>Github</a><br></br>
             <div className='project-photo-background' id='project_photo_background'>
                 <div className='blur-left-left'></div>
                 <div className='blur-left'></div>
