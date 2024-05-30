@@ -8,6 +8,8 @@ import { Project6 } from './project6'
 import { Project7 } from './project7'
 import { Project8 } from './project8'
 import { Project9 } from './project9'
+import { Project10 } from './project10'
+import { Project11 } from './project11'
 
 export const Main=()=>{
     return(
@@ -40,6 +42,12 @@ export const Main=()=>{
                 </section>  
                 <section id='project9'>
                     <Project9 />
+                </section>  
+                <section id='project10'>
+                    <Project10 />
+                </section>
+                <section id='project10'>
+                    <Project11 />
                 </section>  
             </div>
         </div>
