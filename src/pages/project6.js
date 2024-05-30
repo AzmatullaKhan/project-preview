@@ -8,7 +8,7 @@ export const Project6=()=>{
                 management to track user input and financial transactions dynamically. Additionally, it features a 
                 clean, modern design, enhancing the user experience. The demo also integrates basic validation to 
                 ensure realistic and error-free interactions.</p>
-            <p style={{fontWeight:"bolder"}}><span style={{textDecoration:"underline"}}>Used Technnologies</span>:- Python, Djnago, PSQl, CSS, JS and HTML</p>
+            <p style={{fontWeight:"bolder"}}><span style={{textDecoration:"underline"}}>Used Technnologies</span>:- ReactJS, CSS, JS and HTML</p>
             <a rel='noreferrer' href='https://github.com/AzmatullaKhan/ATM' target={'_blank'} style={{fontSize:"22px"}}>Github</a><br></br>
             <div className='project-photo-background' id='project_photo_background'>
                 <div className='blur-left-left'></div>

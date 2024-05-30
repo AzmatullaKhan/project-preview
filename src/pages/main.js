@@ -5,6 +5,8 @@ import { Project3 } from './project3'
 import { Project4 } from './project4'
 import { Project5 } from './project5'
 import { Project6 } from './project6'
+import { Project7 } from './project7'
+import { Project8 } from './project8'
 
 export const Main=()=>{
     return(
@@ -28,6 +30,12 @@ export const Main=()=>{
                 </section>
                 <section id='project6'>
                     <Project6 />
+                </section>
+                <section id='project7'>
+                    <Project7 />
+                </section>  
+                <section id='project8'>
+                    <Project8 />
                 </section>  
             </div>
         </div>
