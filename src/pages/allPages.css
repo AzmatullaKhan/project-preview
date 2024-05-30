@@ -38,7 +38,7 @@
     margin: 0px 20px;
     height: 400px;
     width:600px;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s
 }
 .project-photo:hover{
     height:440px;
@@ -51,45 +51,53 @@
     justify-content: center;
     align-items: center;
     z-index: 9;
+    margin-left: -250px;
     font-size: larger;
     font-weight: bolder;
 }
 .project-photo-right-section{
     min-height: 400px;
     min-width:250px;
+    max-height: 400px;
+    max-width:250px;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 9;
     font-size: larger;
-    font-weight: bolder
+    font-weight: bolder;
+    margin-right: -250px;
 }
 
 .blur-left-left{
     height:402px;
-    width:50px;
-    position: absolute;
+    min-width:50px;
+    position:sticky;
+    left: 0px;
     backdrop-filter: blur(8px);
+    /* border: 1px solid #fff; */
 }
 .blur-left{
     height:402px;
-    width:200px;
-    position: absolute;
+    min-width:200px;
+    position: sticky;
+    left:50px;
     backdrop-filter: blur(10px);
-    margin-left:50px ;
+    /* margin-left:50px ; */
+    /* border: 1px solid #fff; */
 }
 
 .blur-right{
     height:402px;
-    width:200px;
-    position: absolute;
+    min-width:200px;
+    position:sticky;
+    right: 0;
     backdrop-filter: blur(10px);
-    margin-left: 950px;
 }
 .blur-right-right{
     height:402px;
-    width:50px;
-    position: absolute;
+    min-width:50px;
+    position: sticky;
+    right: 200px;
     backdrop-filter: blur(8px);
-    margin-left:1150px ;
 }
