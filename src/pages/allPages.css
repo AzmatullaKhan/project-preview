@@ -1,3 +1,6 @@
+*{
+    scroll-behavior: smooth;
+}
 .main-background{
  /* border: 1px solid #fff; */
  height:842px;
@@ -126,11 +129,16 @@ a{
     border: 1px solid #fff;
     text-decoration: none;
     margin:10px 0px;
+    animation: project-href-animation 2s ease-out 0s;
 }
 .project-href:hover{
     background-color: #fff;
     color: #000;
     font-weight: bolder;
+}
+@keyframes project-href-animation {
+    0%{position: relative;left: -300px;}
+    100%{position: relative;left: 0px;}
 }
 footer{
     font-weight: bolder;
